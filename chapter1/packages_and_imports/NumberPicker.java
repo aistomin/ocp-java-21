@@ -1,8 +1,8 @@
-import java.util.Random;
+// import java.util.Random;
 
 public class NumberPicker {
     public static void main(String[] args) {
-        Random r = new Random();
+        java.util.Random r = new java.util.Random();
         System.out.println(r.nextInt(10));
     }
 }

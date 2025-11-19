@@ -22,6 +22,10 @@ public class PlayingAround {
         short s1 = 32_000 + 700;
         System.out.println("s1 = " + s1);
 
-        // short s2 = 32_000 + 800; - fails
+        // short s2 = 32_000 + 800; - does not compile
+
+        System.out.println("null == null = " + (null == null));
+
+        // x == 5 ? System.sleep(1) : System.sleep(2); - does not compile
     }
 }

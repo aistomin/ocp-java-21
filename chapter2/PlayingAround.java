@@ -27,5 +27,21 @@ public class PlayingAround {
         System.out.println("null == null = " + (null == null));
 
         // x == 5 ? System.sleep(1) : System.sleep(2); - does not compile
+        
+        int flipBits = ~10;
+        System.out.println("flipBits = " + flipBits);
+
+        int negation = -10;
+        System.out.println("negation = " + negation);
+
+        boolean booleanNegation = !false;
+        System.out.println("booleanNegation = " + booleanNegation);
+
+        int i1 = 1;
+        long l1 = 1;
+
+        System.out.println("i1 == l1 = " + (i1 == l1));
+
+        System.out.println("1 == 1L = " + (1 == 1L));
     }
 }
